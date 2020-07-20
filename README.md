@@ -20,3 +20,13 @@ php artisan migrate
 composer require dingo/api
 php artisan vendor:publish --provider="Dingo\Api\Provider\LaravelServiceProvider"
 ```
+
+### tymon/jwt-auth
+- https://github.com/tymondesigns/jwt-auth
+- https://jwt-auth.readthedocs.io/en/develop/
+- 执行安装
+```
+composer require tymon/jwt-auth
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+php artisan jwt:secret
+```
