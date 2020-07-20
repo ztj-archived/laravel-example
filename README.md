@@ -12,3 +12,11 @@ DB_FOREIGN_KEYS=true
 ```
 php artisan migrate
 ```
+
+### dingo/api
+- https://github.com/dingo/api
+- 执行命令
+```
+composer require dingo/api
+php artisan vendor:publish --provider="Dingo\Api\Provider\LaravelServiceProvider"
+```
